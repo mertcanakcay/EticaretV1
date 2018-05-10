@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Areas/Member/Views/Shared/_Layout.cshtml";
+}
+
+
+@section scripts{
+
+    <link href="~/Content/Css/Login.css" rel="stylesheet" />
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <div id="login-section">
+                <form action="login" method="post">
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        <label for="UserName">
+                            User Name:
+                        </label>
+                        <input type="text" name="UserName" value="" class="form-control" placeholder="User Name.." />
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">
+                            Password:
+                        </label>
+                        <input type="text" name="Password" value="" class="form-control" placeholder="Password" />
+                    </div>
+                    <input type="submit" name="name" value="Giriş Yap" class="btn btn-primary form-control" />
+                    <div id="validation-summary" class="@TempData["class"]">
+                        @Html.ValidationSummary(false)
+                        <div id="credentials-error">
+                            @ViewData["hata"]
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticaretV1.Core", "EticaretV1.Core\EticaretV1.Core.csproj", "{BD0472A4-BEF6-41F8-A37B-2D9CF1934201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticaretV1.Model", "EticaretV1.Model\EticaretV1.Model.csproj", "{634563BB-F064-41EE-BEA3-F40A1E70CBF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticaretV1.Map", "EticaretV1.Map\EticaretV1.Map.csproj", "{570A0A6C-1ACE-4C4A-8CF0-7A2561FE8905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticaretV1.Utility", "EticaretV1.Utility\EticaretV1.Utility.csproj", "{35BE4E5B-1D47-4C8F-ACC2-0C4FA9B31E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticaretV1.DAL", "EticaretV1.DAL\EticaretV1.DAL.csproj", "{AE00B483-B989-4EFD-8E7C-854F34B02C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticaretV1.Service", "EticaretV1.Service\EticaretV1.Service.csproj", "{FA230317-28E6-4191-9C25-941D49819D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticaretV1.UI", "EticaretV1.UI\EticaretV1.UI.csproj", "{DDC113FF-A12B-42F8-932A-22015B2D6C0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD0472A4-BEF6-41F8-A37B-2D9CF1934201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0472A4-BEF6-41F8-A37B-2D9CF1934201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0472A4-BEF6-41F8-A37B-2D9CF1934201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0472A4-BEF6-41F8-A37B-2D9CF1934201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634563BB-F064-41EE-BEA3-F40A1E70CBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634563BB-F064-41EE-BEA3-F40A1E70CBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634563BB-F064-41EE-BEA3-F40A1E70CBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634563BB-F064-41EE-BEA3-F40A1E70CBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570A0A6C-1ACE-4C4A-8CF0-7A2561FE8905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570A0A6C-1ACE-4C4A-8CF0-7A2561FE8905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570A0A6C-1ACE-4C4A-8CF0-7A2561FE8905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570A0A6C-1ACE-4C4A-8CF0-7A2561FE8905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BE4E5B-1D47-4C8F-ACC2-0C4FA9B31E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BE4E5B-1D47-4C8F-ACC2-0C4FA9B31E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BE4E5B-1D47-4C8F-ACC2-0C4FA9B31E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BE4E5B-1D47-4C8F-ACC2-0C4FA9B31E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE00B483-B989-4EFD-8E7C-854F34B02C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE00B483-B989-4EFD-8E7C-854F34B02C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE00B483-B989-4EFD-8E7C-854F34B02C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE00B483-B989-4EFD-8E7C-854F34B02C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA230317-28E6-4191-9C25-941D49819D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA230317-28E6-4191-9C25-941D49819D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA230317-28E6-4191-9C25-941D49819D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA230317-28E6-4191-9C25-941D49819D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC113FF-A12B-42F8-932A-22015B2D6C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC113FF-A12B-42F8-932A-22015B2D6C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC113FF-A12B-42F8-932A-22015B2D6C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC113FF-A12B-42F8-932A-22015B2D6C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

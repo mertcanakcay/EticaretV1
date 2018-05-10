@@ -1,0 +1,9 @@
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Model\bin\Debug\EticaretV1.Model.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Model\bin\Debug\EticaretV1.Model.pdb
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Model\bin\Debug\EticaretV1.Core.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Model\bin\Debug\EntityFramework.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Model\bin\Debug\EticaretV1.Core.pdb
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Model\bin\Debug\EntityFramework.xml
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Model\obj\Debug\EticaretV1.Model.csprojResolveAssemblyReference.cache
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Model\obj\Debug\EticaretV1.Model.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Model\obj\Debug\EticaretV1.Model.pdb

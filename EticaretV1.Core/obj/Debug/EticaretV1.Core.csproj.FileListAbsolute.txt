@@ -1,0 +1,10 @@
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Core\bin\Debug\EticaretV1.Core.dll.config
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Core\bin\Debug\EticaretV1.Core.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Core\bin\Debug\EticaretV1.Core.pdb
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Core\bin\Debug\EntityFramework.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Core\bin\Debug\EntityFramework.xml
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Core\obj\Debug\EticaretV1.Core.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Core\obj\Debug\EticaretV1.Core.pdb
+C:\Users\MertCan\Documents\Visual Studio 2015\Projects\EticaretV1\EticaretV1.Core\obj\Debug\EticaretV1.Core.csprojResolveAssemblyReference.cache

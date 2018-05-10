@@ -1,0 +1,14 @@
+c:\users\mertcan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\obj\Debug\EticaretV1.Map.csprojResolveAssemblyReference.cache
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\bin\Debug\EticaretV1.Map.dll.config
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\bin\Debug\EticaretV1.Map.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\bin\Debug\EticaretV1.Map.pdb
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\bin\Debug\EntityFramework.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\bin\Debug\EticaretV1.Core.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\bin\Debug\EticaretV1.Model.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\bin\Debug\EticaretV1.Core.pdb
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\bin\Debug\EticaretV1.Model.pdb
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\bin\Debug\EntityFramework.xml
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\obj\Debug\EticaretV1.Map.dll
+C:\Users\MertCan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Map\obj\Debug\EticaretV1.Map.pdb

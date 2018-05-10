@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Member/Views/Shared/_Layout.cshtml";
+}
+
+@model List<EticaretV1.Model.Option.Product>
+
+<div class="col-md-12">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Ürün Adı</th>
+                <th>Fiyatı</th>
+                <th>Stok Miktarı</th>
+                <th>Fotoğraf</th>
+                <th colspan="1">Ayrıntı</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Price</td>
+                    <td>@item.UnitsInStock</td>
+                    <td><img src="@item.ImagePath" style="display:block" width="30" height="30" /></td>
+                    <td>
+                        <a href="/Member/Product/Show/@item.Id">Ayrıntılara Git!</a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

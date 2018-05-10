@@ -1,0 +1,148 @@
+﻿
+@{
+    ViewBag.Title = "Show";
+    Layout = "~/Areas/Member/Views/Shared/_Layout.cshtml";
+}
+
+@model EticaretV1.UI.Areas.Member.Models.ProductCommentVM
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2 col-md-10 ">
+          
+              <h3>@Model.Product.Name</h3>
+           <br />
+            <img src="@Model.Product.ImagePath" style="display:block" width="200" height="300" />
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Ürün fiyatı</th>
+                        <th>Stok Miktarı</th>
+                        <th>Sepete Ekle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Product.Price</td>
+                        <td>@Model.Product.UnitsInStock</td>
+                        <td>
+                            <a href="/Member/Product/Buy/@Model.Product.Id" class="add-to-cart">
+                                <img src="~/Content/Images/1a_satin_al.png"  class="btnBuy"  width="80" height="200" data-toggle="tooltip" data-placement="right"
+                                     title="Satın Al" />
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+          
+            </table>
+            <label id="showLikes" style="text-align:right" class="alert alert-success">@Model.Likes</label>
+            <button id="like" type="submit" style="text-align:right" href="javascript:void(0)" class="btn btn-primary">Ürünü Beğen</button>
+            <hr />
+            <label id="message" style="display:none" class="alert alert-danger"></label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <form action="/Member/Product/AddComment" method="post">
+                <div class="form-control">
+                    <label for="Header">
+                        Başlık
+                    </label>
+                    <input type="text" name="Header" value="" class="form-control" placeholder="Lütfen Başlık Yazınız..." />
+                </div>
+                <div class="form-control">
+                    <label for="Content">
+                        İçerik Alanı
+                    </label>
+                    <textarea type="text" name="Content" rows="4" value="" class="form-control" placeholder="Lütfen Yorumunuzu Yazınız..."> </textarea>
+                </div>
+                <input type="hidden" name="Id" value="@Model.Product.Id" />
+                <input type="submit" value="Ekle" class="form-control btn btn-primary" />
+            </form>
+        </div>
+    </div>
+    <div class="row" style="margin-top:20px;">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            @foreach (var item in Model.Comments)
+            {
+                <p class="text-primary">@item.Header</p>
+                    <figure>
+                        @item.Content
+                    </figure>
+                    <p class="text-primary" style="text-align:right">@item.AppUser.UserName &nbsp; <i>@item.CreatedDate.Value.ToShortDateString()</i></p>
+                    <hr />
+            }
+        </div>
+    </div>
+
+</div>
+
+
+
+    
+<script src="~/Content/Scripts/jquery.js"></script>
+<script src="~/Content/Scripts/Cart.js"></script>
+    
+    <script>
+        
+        $("#like").click(function () {
+            var id = "@Model.Product.Id";
+
+            $.ajax({
+                type: "POST",
+                dataType: "Json",
+                url: "@Url.Action("AddLike","Product")/" + id,
+                success: function (data) {
+                    if (data.isSuccess == false) {
+                        $("#message").removeAttr("style");
+                    }
+
+                    $("#message").text(data.userMessage);
+                    $("#showLikes").text(data.Likes);
+
+                    setTimeout(function () {
+                        $("#message").slideUp(1000);
+                    }, 2000)
+
+                }
+        })
+
+        });
+    </script>
+<script type="text/javascript">
+
+    //$(document).ready(function () {
+    //    $('.add-to-cart').on('click', function () {
+    //        $('html,body').animate({
+    //            'scrollTop': $(".cart_anchor").position().top
+    //        });
+
+    //        var itemImg = $(this).parent().find('img').eq(0);
+    //        flyToElement($(itemImg), $('.cart_anchor'));
+    //    });
+    //});
+
+
+    @*$(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    $(".btnBuy").click(function () {
+        var id = $(this).attr("val");
+        $.ajax({
+            type: "POST",
+            dataType: "Json",
+            url: "@Url.Action("Buy","Product")/" + id,
+            success: function (data) {
+                alert("girdi")
+
+            }
+        })
+    });*@
+
+</script>
+    
+    
+

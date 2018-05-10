@@ -1,0 +1,5 @@
+c:\users\mertcan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Utility\bin\Debug\EticaretV1.Utility.dll
+c:\users\mertcan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Utility\bin\Debug\EticaretV1.Utility.pdb
+c:\users\mertcan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Utility\obj\Debug\EticaretV1.Utility.dll
+c:\users\mertcan\documents\visual studio 2015\Projects\EticaretV1\EticaretV1.Utility\obj\Debug\EticaretV1.Utility.pdb
+C:\Users\MertCan\Documents\Visual Studio 2015\Projects\EticaretV1\EticaretV1.Utility\obj\Debug\EticaretV1.Utility.csprojResolveAssemblyReference.cache

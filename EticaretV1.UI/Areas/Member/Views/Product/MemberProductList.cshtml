@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "MemberProductList";
+    Layout = "~/Areas/Member/Views/Shared/_Layout.cshtml";
+}
+@model EticaretV1.UI.Areas.Member.Models.MemberProductVM
+
+<div class="col-md-6 float-left" >
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Onaylanan Ürün Adı</th>
+                <th>Kategori İsmi</th>
+                <th>Fotoğraf</th>
+                <th colspan="1">Güncelle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ApprovedProduct)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Category.Name</td>
+                    <td><img src="@item.ImagePath" style="display:block" width="30" height="30" /></td>
+                    <td>
+                        <a href="/Member/Product/Update/@item.Id">Güncelle</a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<div class="col-md-6 float-right">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Bekleyen Ürün Adı</th>
+                <th>Kategori İsmi</th>
+                <th>Fotoğraf</th>
+                <th colspan="1">Güncelle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.PendingProduct)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Category.Name</td>
+                    <td><img src="@item.ImagePath" style="display:block" width="30" height="30" />
+                    
+                    </td>
+                    <td>
+                        <a href="/Member/Product/Update/@item.Id">Güncelle</a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

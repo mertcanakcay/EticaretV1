@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "ListComments";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<EticaretV1.Model.Option.Comment>
+<div class="col-md-12">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+               <th>Üye İsmi</th>
+                 <th>Başlık</th>
+                <th>İçerik</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                   <td>@item.AppUser.UserName</td>
+                     <td>@item.Header</td>
+                    <td>@item.Content</td>
+                   
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
