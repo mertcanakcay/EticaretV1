@@ -37,9 +37,9 @@ namespace EticaretV1.UI.Areas.Member.Controllers
         { 
 
             Product p = service.ProductService.GetById(data.Id);
-            //Farkındayım bir garip durduğundan :)
+            
 
-            short? toplamStok = p.UnitsInStock;//short'dan 1 çıkaramadığım için boyle bir rötar oldu.2 short'u birbirinden çıkaracağınız zaman sonuç short olmayabiliyormuş.
+            short? toplamStok = p.UnitsInStock;
             int sonuc = (int)toplamStok - 1;
 
             p.UnitsInStock = (short?)sonuc;
